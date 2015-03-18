@@ -9,6 +9,7 @@
  * Note:
  * 1, the string is not sorted by alpha order.
  * 2, Since we only need to remove English Characters, we can use an bool array with length of 26.
+ * If we need to consider both uppercase and lowercase char, we can use bool array with length of 52.
  * If we need to remove ASCII charcters, we would use an int array with length of 256.
  * 
  * Solution1:  using constant extra memory space
